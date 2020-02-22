@@ -18,6 +18,6 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  array.shift
-  array
+  remove_first = array.shift
+  remove_first
 end
