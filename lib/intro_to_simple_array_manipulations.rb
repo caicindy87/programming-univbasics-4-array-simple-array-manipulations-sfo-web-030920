@@ -21,3 +21,9 @@ def using_shift(array)
   remove_first = array.shift
   remove_first
 end
+
+def shift_with_args(array)
+  removed_elements = array.shift(2)
+  removed_elements
+end
+
