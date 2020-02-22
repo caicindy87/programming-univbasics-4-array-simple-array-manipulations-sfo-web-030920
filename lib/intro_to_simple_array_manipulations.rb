@@ -14,8 +14,5 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  first_removed_element = array.pop
-  second_removed_element = array.pop
-  first_removed_element
-  second_removed_element
+  removed_elements = array.pop(2)
 end
